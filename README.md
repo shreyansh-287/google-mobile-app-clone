@@ -29,33 +29,11 @@ Upon entering a search query, the app displays interactive search results, featu
 - **ListView and Card Widgets:** Implemented to structure and present search results in a visually appealing manner.
 - **GestureDetector Widget:** Utilized to handle user interactions with search results, enabling further exploration.
 
-### Dark Mode
-
-The app supports a dark mode theme, providing users with a visually comfortable and customizable experience.
-
-**Flutter Properties Used:**
-- **ThemeProvider Package:** Employed for managing themes and implementing dark mode functionality.
-
-## Usage
-
-To use the Google Mobile App Clone, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open the project in a Flutter-compatible IDE.
-3. Run the app on an emulator or physical device.
-
-Experience the familiarity of Google's powerful search capabilities with the Google Mobile App Clone!
-
 ## Dependencies
 
-- Flutter: [Insert Flutter Version]
-- Dart: [Insert Dart Version]
+- Flutter: 3.10.6
+- Dart: 3.0.6
 
 ## Contributors
 
-- [Your Name]
-- [Additional Contributors]
-
-## License
-
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+**Shreyansh Pathak**
