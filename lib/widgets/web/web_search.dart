@@ -23,8 +23,6 @@ class Search extends StatelessWidget {
           ),
           const SizedBox(height: 20),
           SizedBox(
-            // another way of doing things
-            // also everything in search bar is same except this width so just use this
             width: size.width > 768 ? size.width * 0.4 : size.width * 0.9,
             child: TextFormField(
               keyboardType: TextInputType.text,
@@ -52,6 +50,7 @@ class Search extends StatelessWidget {
                 ),
               ),
               onFieldSubmitted: (val) {
+                //TODO: Revise this how its navigating
                 if (val != "") {
                   Navigator.of(context).push(
                     MaterialPageRoute(
@@ -64,7 +63,6 @@ class Search extends StatelessWidget {
               },
             ),
           ),
-          const SizedBox(height: 20),
         ],
       ),
     );
